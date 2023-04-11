@@ -18,7 +18,7 @@ public class TestBasicWebSocket {
         try {
             // open websocket
             final BasicClient clientEndPoint = new BasicClient(
-                    new URI("ws://localhost:8082/demo-1.0-SNAPSHOT/basicEndpoint"));
+                    new URI("ws://localhost:8082/demo-1.0-SNAPSHOT/chatEndpoint/vis"));
 
             // add listener
             clientEndPoint.addMessageHandler(new BasicClient.MessageHandler() {
