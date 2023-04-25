@@ -10,10 +10,6 @@ import jakarta.websocket.Session;
 import jakarta.websocket.server.ServerEndpoint;
 import java.io.IOException;
 
-/**
- *
- * @author Juneau
- */
 @ServerEndpoint(value = "/basicEndpoint")
 public class BasicEndpoint {
     

@@ -13,10 +13,6 @@ import jakarta.websocket.EndpointConfig;
 
 import java.io.StringReader;
 
-/**
- *
- * @author Juneau
- */
 public class MessageDecoder implements Decoder.Text<Message> {
 
   @Override

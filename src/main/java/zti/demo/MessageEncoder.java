@@ -11,10 +11,6 @@ import jakarta.websocket.EncodeException;
 import jakarta.websocket.Encoder;
 import jakarta.websocket.EndpointConfig;
 
-/**
- *
- * @author Juneau
- */
 public class MessageEncoder implements Encoder.Text<Message> {
 
   @Override

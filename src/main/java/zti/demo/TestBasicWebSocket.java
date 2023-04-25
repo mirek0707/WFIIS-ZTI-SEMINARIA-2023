@@ -8,17 +8,13 @@ package zti.demo;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-/**
- *
- * @author Juneau
- */
 public class TestBasicWebSocket {
     
     public static void main(String[] args){
         try {
             // open websocket
             final BasicClient clientEndPoint = new BasicClient(
-                    new URI("ws://localhost:8082/demo-1.0-SNAPSHOT/chatEndpoint/vis"));
+                    new URI("ws://localhost:8082/demo-1.0-SNAPSHOT/chatEndpoint/cat"));
 
             // add listener
             clientEndPoint.addMessageHandler(new BasicClient.MessageHandler() {

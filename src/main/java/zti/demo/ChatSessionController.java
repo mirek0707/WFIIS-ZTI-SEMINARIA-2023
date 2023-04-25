@@ -5,10 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import jakarta.annotation.PostConstruct;
 
-/**
- *
- * @author Juneau
- */
 @Named
 @ApplicationScoped
 public class ChatSessionController implements java.io.Serializable {
@@ -22,16 +18,10 @@ public class ChatSessionController implements java.io.Serializable {
         users = new HashMap<>();
     }
 
-    /**
-     * @return the users
-     */
     public Map<String, String> getUsers() {
         return users;
     }
-
-    /**
-     * @param users the users to set
-     */
+    
     public void setUsers(Map<String, String> users) {
         this.users = users;
     }
